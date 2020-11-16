@@ -1,0 +1,105 @@
+html {
+  scroll-behavior: smooth;
+}
+.mybody{
+	background-color: #f2f2f2;
+	font-family: "Gotham";
+	font-weight:400;
+	font-size:15px;
+	color:#555;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling:touch;
+}
+
+.bigtext{
+	font-family: "Gotham";
+	font-size: 60px;
+	font-style: bold;
+	color:#333;
+}
+.galtext{
+	font-family: "Gotham";
+	font-size: 10px;
+	font-style: italic;
+}
+.smalltext{
+	font-family: "Gotham";
+	font-size: 20px;
+	font-style: bold;
+	color:#999;
+}
+
+.navbar{
+	font-weight:700;
+	font-size:14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	min-height: 80px;
+}
+.page-footer{
+	background-color: grey;
+}
+.footer-container{
+	min-height: 80px;
+}
+li{
+	margin-left: 10px;
+}
+.main{
+	margin-top:5%;
+}
+.zoom{
+	transition: transform .2s;
+}
+
+.zoom:hover{
+	transform:scale(1.2);
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+@media screen and (max-width: 770px){
+	.bigtext{	
+		font-family: "Gotham";
+		font-size: 28px;
+		font-style: bold;
+		color:#999;}
+
+	.smalltext{	
+		font-family: "Gotham";
+		font-size: 18px;
+		font-style: bold;
+		color:#999;}
+}
+
